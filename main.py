@@ -1,4 +1,8 @@
 #!/user/bin/python2
 
-print "Hello World!"
-print "Yes, you made it."
+def greetings(greet):
+    print greet
+
+greetings("Hello World!")
+
+greetings("Let's get it started")
